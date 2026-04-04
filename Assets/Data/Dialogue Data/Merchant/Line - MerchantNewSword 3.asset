@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0068702aec3de449921e7916c9d3dd, type: 3}
+  m_Name: Line - MerchantNewSword 3
+  m_EditorClassIdentifier: 
+  dialogueGroupName: Merchant_Bob
+  speaker: {fileID: 11400000, guid: ff825f518cff4ec44a2d740abfe3edd7, type: 2}
+  textLine:
+  - 
+  playerChoiceAnswer: "\u4F60\u8FD9\u4E2A\u541D\u556C\u7684\u77EE\u4EBA\uFF0C\u4ECE\u4F60\u624B\u91CC\u8D5A\u70B9\u94B1\u6BD4\u767B\u5929\u8FD8\u96BE"
+  choiceLines: []
+  actionLine: "\u591A\u8C22\u5938\u5956"
+  actionType: 6
+  useAffinityCondition: 0
+  minAffinity: -100
+  maxAffinity: 100
+  usePlayerGoldCondition: 0
+  minPlayerGold: 0
+  maxPlayerGold: 999999
+  questStateCondition: 2
+  questToCheck: {fileID: 11400000, guid: 261ac3ed6c47058459fe68c9989ee80e, type: 2}
+  affinityDelta: -10

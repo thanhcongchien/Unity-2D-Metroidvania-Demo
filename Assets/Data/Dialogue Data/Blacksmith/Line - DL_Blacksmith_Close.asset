@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0068702aec3de449921e7916c9d3dd, type: 3}
+  m_Name: Line - DL_Blacksmith_Close
+  m_EditorClassIdentifier: 
+  dialogueGroupName: Blacksmith_Joe
+  speaker: {fileID: 11400000, guid: 18f7ec1d5b46a804b99b540dcd4c224e, type: 2}
+  textLine:
+  - 
+  playerChoiceAnswer: "\u5148\u8FD9\u6837\u5427"
+  choiceLines: []
+  actionLine: "\u884C\u3002\u9700\u8981\u6211\u7684\u65F6\u5019\u518D\u6765\uFF0C\u522B\u8D70\u592A\u8FDC\u3002"
+  actionType: 6
+  useAffinityCondition: 0
+  minAffinity: -100
+  maxAffinity: 100
+  usePlayerGoldCondition: 0
+  minPlayerGold: 0
+  maxPlayerGold: 999999
+  questStateCondition: 0
+  questToCheck: {fileID: 0}
+  affinityDelta: 0

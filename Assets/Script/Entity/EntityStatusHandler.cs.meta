@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: a39667be8abd41d418ab32f2621b470a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - electrifyStrikeVfx: {fileID: 1571764311608243124, guid: 0be25df22947dde4581be406aaa9b256, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,24 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEngine;
+
+[Serializable]
+public class DamageScaleData 
+{
+    [Header("Damage")]
+    public float physical = 1;
+    public float elemental = 1;
+    [Header("Chill")]
+    public float chillDuration = 3;
+    public float chillSlowMultiplier = .2f;
+    [Header("Burn")]
+    public float burnDuration = 3;
+    public float burnDamageScale = 1;
+    [Header("Lightning")]
+    public float lightningDuration = 3;
+    public float lightningDamageScale = 1;
+    public float lightningCharge = .4f;
+
+}

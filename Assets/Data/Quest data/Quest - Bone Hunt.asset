@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 614d9aa77cabb174fb74194951cead8f, type: 3}
+  m_Name: Quest - Bone Hunt
+  m_EditorClassIdentifier: 
+  questSaveID: 7cd12001f60087741afbf9e30be50ed8
+  questType: 0
+  questName: "\u9AB7\u9AC5\u72E9\u730E"
+  description: "\u9AB7\u9AC5\u662F\u4F60\u6210\u738B\u9053\u8DEF\u4E0A\u9047\u5230\u7684\u7B2C\u4E00\u4E2A\u654C\u4EBA\uFF0C\u51FB\u5012\u5B83\u4EEC\uFF0C\u8BC1\u660E\u81EA\u5DF1\u7684\u529B\u91CF"
+  questGoal: "-\u51FB\u6740\u9AB7\u9AC5\uFF1A"
+  questTargetId: enemy_skeleton
+  requiredAmount: 2
+  itemToDeliver: {fileID: 0}
+  prerequisiteQuests: []
+  rewardType: 0
+  rewardItems:
+  - itemData: {fileID: 11400000, guid: 7775e9413a82e734a8c3c83cce41d48c, type: 2}
+    stackSize: 1
+    itemEffect: {fileID: 0}
+  - itemData: {fileID: 11400000, guid: a4a05fb76eb0241429542ee65dec2c68, type: 2}
+    stackSize: 2
+    itemEffect: {fileID: 0}
+  affinityRewardAmount: 5
+  affinityRewardNpcId: 

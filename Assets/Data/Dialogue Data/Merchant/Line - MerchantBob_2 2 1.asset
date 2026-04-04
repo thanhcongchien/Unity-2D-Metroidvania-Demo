@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0068702aec3de449921e7916c9d3dd, type: 3}
+  m_Name: Line - MerchantBob_2 2 1
+  m_EditorClassIdentifier: 
+  dialogueGroupName: Merchant_Bob
+  speaker: {fileID: 11400000, guid: ff825f518cff4ec44a2d740abfe3edd7, type: 2}
+  textLine:
+  - 
+  playerChoiceAnswer: "\u6211\u60F3\u63A5\u70B9\u6D3B"
+  choiceLines: []
+  actionLine: "\u624B\u5934\u4E0A\u6B63\u597D\u6709\u51E0\u4E2A\u6D3B\uFF0C\u5C0F\u5FC3\u70B9\uFF0C\u6211\u53EF\u5C31\u4F60\u8FD9\u4E48\u4E00\u4E2A\u987E\u5BA2\u3002"
+  actionType: 1
+  useAffinityCondition: 0
+  minAffinity: -100
+  maxAffinity: 100
+  usePlayerGoldCondition: 0
+  minPlayerGold: 0
+  maxPlayerGold: 999999
+  questStateCondition: 0
+  questToCheck: {fileID: 0}
+  affinityDelta: 0

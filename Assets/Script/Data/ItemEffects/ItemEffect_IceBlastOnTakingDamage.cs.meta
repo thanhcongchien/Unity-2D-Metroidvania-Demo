@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: b23ab5a18de48c046964fb519425cb6a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - IceBlastVFX: {fileID: 1309217028803255376, guid: 76726cee8f57d5e4cb3d73be4cbd2491, type: 3}
+  - onHitVFX: {fileID: 3169924531617526662, guid: 4f57e181eb793ba4ba51dca12ca7bbff, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

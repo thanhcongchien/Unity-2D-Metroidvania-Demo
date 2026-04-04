@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0068702aec3de449921e7916c9d3dd, type: 3}
+  m_Name: Line - DL_Merchant_A_PoorLow
+  m_EditorClassIdentifier: 
+  dialogueGroupName: Merchant_Bob
+  speaker: {fileID: 11400000, guid: ff825f518cff4ec44a2d740abfe3edd7, type: 2}
+  textLine:
+  - "\u53C8\u662F\u4F60\u3002\u5148\u8BF4\u597D\uFF0C\u6478\u4E00\u5708\u4E0D\u4E70\uFF0C\u6211\u53EF\u4E0D\u4F1A\u7ED9\u4F60\u7559\u9762\u5B50."
+  playerChoiceAnswer: 
+  choiceLines:
+  - {fileID: 11400000, guid: 3e5f0deb75cf8f24a83ed713a85e20ba, type: 2}
+  - {fileID: 11400000, guid: 2496e259cb2e6064c88ba799848a6cd8, type: 2}
+  - {fileID: 11400000, guid: c470ac7a1bc03954a81142f8295858c1, type: 2}
+  - {fileID: 11400000, guid: 3d14db57748e8c94996e4cef839035c7, type: 2}
+  actionLine: 
+  actionType: 5
+  useAffinityCondition: 1
+  minAffinity: -100
+  maxAffinity: 9
+  usePlayerGoldCondition: 1
+  minPlayerGold: 0
+  maxPlayerGold: 299
+  questStateCondition: 0
+  questToCheck: {fileID: 0}
+  affinityDelta: 0

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d9a8af5ed63e14438a49d9aa943daa1, type: 3}
+  m_Name: Skill data - Cleanse
+  m_EditorClassIdentifier: 
+  skillName: Cleanse
+  description: 'HealingWisp will reduce the duration of negative status by 1s
+
+'
+  icon: {fileID: 1893721086, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
+  cost: 3
+  skillType: 1
+  UpgradeData:
+    upgradeType: 20
+    cooldown: 0
+    damageScale:
+      physical: 1
+      elemental: 1
+      chillDuration: 3
+      chillSlowMultiplier: 0.2
+      burnDuration: 3
+      burnDamageScale: 1
+      lightningDuration: 3
+      lightningDamageScale: 1
+      lightningCharge: 0.4
+  unlockByDefault: 0

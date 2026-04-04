@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 614d9aa77cabb174fb74194951cead8f, type: 3}
+  m_Name: Quest - New Sword
+  m_EditorClassIdentifier: 
+  questSaveID: 261ac3ed6c47058459fe68c9989ee80e
+  questType: 1
+  questName: "\u5143\u7D20\u6B66\u5668"
+  description: "\u6211\u521A\u6253\u597D\u4E86\u4E00\u6279\u4E0A\u597D\u7684\u5B9D\u5251\uFF0C\u66FF\u6211\u9A82Bob\u4E00\u987F\uFF0C\u8FD9\u6279\u5251\u5C31\u662F\u4F60\u7684\u4E86"
+  questGoal: "-\u4E0EBob\u5BF9\u8BDD"
+  questTargetId: merchant
+  requiredAmount: 1
+  itemToDeliver: {fileID: 0}
+  prerequisiteQuests:
+  - {fileID: 11400000, guid: b312c2592d91e8f46a3abb03a70cba97, type: 2}
+  - {fileID: 11400000, guid: 0c13a3f6cb0820147b1609f1e6c0b9ea, type: 2}
+  - {fileID: 11400000, guid: bcf8b7b1cb787574c82cca95c3f13a66, type: 2}
+  rewardType: 1
+  rewardItems:
+  - itemData: {fileID: 11400000, guid: d634b33a7b3657842b14a1a8de9f1397, type: 2}
+    stackSize: 1
+    itemEffect: {fileID: 0}
+  - itemData: {fileID: 11400000, guid: 24b1ba7dbc97deb4c83da8dbf47a1874, type: 2}
+    stackSize: 1
+    itemEffect: {fileID: 0}
+  - itemData: {fileID: 11400000, guid: 276a8d3f25d3b7a4cabfc9ca1a76a956, type: 2}
+    stackSize: 1
+    itemEffect: {fileID: 0}
+  affinityRewardAmount: 50
+  affinityRewardNpcId: 

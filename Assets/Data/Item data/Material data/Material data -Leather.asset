@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85a9dcadff7d4444cb7c22d31ef9d484, type: 3}
+  m_Name: Material data -Leather
+  m_EditorClassIdentifier: 
+  saveId: 8e112f3223b0a7240924ca5a71c73164
+  itemPrice: 100
+  minStackSizeAtShop: 1
+  maxStackSizeAtShop: 5
+  itemRarity: 100
+  dropChance: 81.4
+  maxDropChance: 81.4
+  itemName: Leather
+  itemIcon: {fileID: -676011521, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
+  itemType: 0
+  maxStackSize: 2
+  itemEffect: {fileID: 0}
+  craftRecipe: []

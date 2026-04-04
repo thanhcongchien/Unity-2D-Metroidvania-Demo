@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 614d9aa77cabb174fb74194951cead8f, type: 3}
+  m_Name: Quest - Hosipital Emergency
+  m_EditorClassIdentifier: 
+  questSaveID: 9204651e1e8830041b799f143fec6bc4
+  questType: 2
+  questName: "\u533B\u9662\u7D27\u60C5"
+  description: "\u540E\u65B9\u7684\u533B\u9662\u533B\u7597\u7269\u8D44\u5DF2\u7ECF\u6FD2\u4E34\u544A\u7F44\uFF0C\u6211\u73B0\u5728\u6025\u9700\u51E0\u74F6\u751F\u547D\u836F\u6C34\n"
+  questGoal: "-\u83B7\u53D6\u56DB\u74F6\u751F\u547D\u836F\u6C34\u4EA4\u7ED9\u5546\u4EBA"
+  questTargetId: 
+  requiredAmount: 4
+  itemToDeliver: {fileID: 11400000, guid: 6c4e87b2027ccf240b487ae9ffee7b6e, type: 2}
+  prerequisiteQuests: []
+  rewardType: 0
+  rewardItems:
+  - itemData: {fileID: 11400000, guid: 7775e9413a82e734a8c3c83cce41d48c, type: 2}
+    stackSize: 1
+    itemEffect: {fileID: 0}
+  affinityRewardAmount: 20
+  affinityRewardNpcId: 
